@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nanum+Myeongjo:wght@700&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Baskerville:wght@700&family=Nanum+Myeongjo:wght@700&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+*{
+    font-family: 'Roboto Slab', serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+        /* ANIMATION */
+
+
+ @keyframes slideright{
+    0%{
+       opacity: 0.5;
+       transform: translateX(-800px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+     }
+}
+@keyframes slideleft{
+    0%{
+       opacity: 0.5;
+       transform: translateX(800px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes slidebottom{
+    0%{
+       opacity: 0.5;
+       transform: translateY(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}  
+        
+             /* HEADER*/
+h1{
+    font-family: 'Great Vibes', cursive;
+}
+body{
+    background-color: aliceblue;
+    
+}
+header{
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    min-height: 70px;
+    max-height:fit-content;
+    cursor: pointer;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    animation: slidebottom 2s ease forwards;
+
+}
+button{
+    color: white;
+    background-color: rgb(255, 68, 0,1);
+    border-radius: 20px;
+    padding: 5px;
+    margin-right: 50px;
+    border-width: 0px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(255, 68, 0,0.7);;
+    
+}
+
+ul:not(.foot){
+    display: flex;
+    margin-right: 0px;
+}
+
+ul:not(.para) li{
+    text-decoration: none;
+   
+    list-style-type: none ;
+    padding:7px;
+    
+
+   
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+    transition: all;
+    transition-duration: 0.5s;
+    
+   
+}
+a:hover{
+    color: orangered;
+    
+   
+}
+.logo{
+    color:gold;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: 50px;
+    text-align: center;
+}
+span{
+    background-color:rgb(128, 28, 28);
+}
+.nav{
+    margin-right: 20px;
+
+}
+ 
+
+/* CONTENT */
+
+.content{
+    position: relative;
+    height: 2500px;
+    
+}
+.slogan{
+
+color: rgb(0, 0, 0);
+font-family: 'Anton', sans-serif;
+position: absolute;
+font-size: xx-large;
+top: 50px;
+left: 250px;
+box-shadow: 5px 5px 5px 0px rgba(25, 1, 1, 0.5);
+
+}
+.txt{
+    position: absolute;
+    top: 50px;
+    height: 100px;
+    width: 350px;
+    bottom: 0px;
+    top:300px;
+    left: 100px;
+    text-align: justify;
+    text-indent: 50px;
+    font-size: x-large;
+    line-height:50px;
+    font-family: 'Dancing Script', cursive;
+    animation:slideright 1s ease forwards;
+}
+.shoe{
+    position: absolute;
+    top: 50px;
+    height: 100px;
+    width: 350px;
+    text-align: justify;
+    text-indent: 50px;
+    font-size: x-large;
+    line-height:50px;
+    font-family: 'Dancing Script', cursive;
+    right: 150px;
+    top: 900px;
+    
+}
+.jacket{
+    position: absolute;
+    height: 100px;
+    width: 350px;
+    text-align: justify;
+    text-indent: 50px;
+    font-size: x-large;
+    line-height:50px;
+    font-family: 'Dancing Script', cursive;
+    left: 150px;
+    bottom:1100px;
+}
+#img1{
+    height: 900px;
+    width: 900px;
+    position: relative;
+    right:30px;
+    top: 0px;
+    left: 500px;
+    animation:slideleft 1s ease forwards;
+    
+
+    
+}
+#img2{
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    top: 900px;
+    left: 50px;
+    animation:slideright 1s ease forwards;
+}
+#img3{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 1250px;
+    animation:slideleft 1s ease forwards;
+}
+.img4{
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    top: 900px;
+    left: 50px;
+}
+a[id="links"]{
+    color: #212121;
+}
+a[id="links"]:hover{
+    color:orangered;
+    cursor: pointer;
+    
+}
+
+
+
+.newarivals{
+    border: 2px black dashed;
+    margin: 10px;
+    height: 500px;
+    width:1350px;
+    position:absolute;
+    bottom:100px;
+    left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+h5{
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    bottom:700px;
+    left: 600px;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    margin: 30px;
+    
+}
+
+
+/* FOOTER */
+
+footer{
+    height:250px;
+    width: 100%;
+    background-color: #212121;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+   
+}
+
+.flogo{
+    color: gold;
+    
+    font-weight: 400;
+    position: absolute;
+    bottom:50px;
+    right:100px;
+    cursor: pointer;
+
+    
+}
+.img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top:70px;
+    left:550px;
+
+}
+img{
+    height:100%;
+    width:100% ;
+
+}
+
+.creater{
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    cursor: pointer;
+}
+
+.contactus{
+    
+    width:450px;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    
+    
+}
+
+.join{
+    position: absolute;
+    right:555px;
+    top: 100px;
+}
+h2{
+    color:teal;
+    cursor: pointer;
+}
+#submit{
+    background-color:orangered;
+    color: black;
+    padding: 2px;
+}
+h3{
+    color: teal;
+    cursor: pointer;
+
+}
+
