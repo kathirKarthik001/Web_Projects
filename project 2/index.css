@@ -1,0 +1,98 @@
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+ *{
+    border: 0px;
+    padding:0px;
+}
+
+
+body{
+    background:linear-gradient(to bottom left,#85C1E9 ,#E8F6F3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+img{
+    height:180px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 0px;
+    
+}
+input:not(#rrr){
+    border-radius: 5px ;
+    width:200px;
+    padding: 2px;
+    margin: 5px;
+}
+.box{
+    width: 100%;
+    /* background-color: rgb(228, 49, 94); */
+    height:fit-content;
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 70px;
+    
+}
+.logo{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+.login{
+    display: inline-block;
+    height: 300px;
+    width: 250px;;
+    padding: 50px;
+    margin: 50px;
+    border: 0.2px rgba(245, 245, 245, 0.905) ;
+    border-style: solid;
+    border-radius: 7px;
+    backdrop-filter: blur(20px);
+    box-shadow:0 0 10px rgba(0, 0, 0, .2) ;
+
+}
+h1{
+    text-align: center;
+}
+.image img{
+    height: 500px;
+    padding: 20px;
+}
+
+#logbtn{
+    width: 70px;
+    padding: 3px;
+    width:202px;
+    background-color: #85C1E9;
+}
+
+.rem-forget{
+    font-size:14px;
+    
+    margin-top: 10px;
+    display: flex;
+    flex-direction:row;
+    
+    align-items: center;
+    align-content:space-evenly;
+}
+a{
+    margin-left: 19px;
+    color: #000;
+}
+#signup{
+    margin-left: 2px;
+    color: black;
+}
+.creator{
+    font-family: 'Dancing Script', cursive;
+}
+#para{
+    text-align: right;
+    margin-right: 10px;
+}
