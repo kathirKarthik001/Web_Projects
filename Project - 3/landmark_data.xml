@@ -1,0 +1,220 @@
+<landmarks>
+    <!-- Purple Landmarks -->
+    <landmark id="purple1">
+        <name>Purple fashions</name>
+        <description>Description of shop</description>
+    </landmark>
+    <landmark id="purple2">
+        <name>Landmark 2</name>
+        <description>Description of shop.</description>
+    </landmark>
+    <landmark id="purple3">
+        <name>Landmark 3</name>
+        <description>Description of shop.</description>
+    </landmark>
+    
+    
+    <!-- Blue Landmarks -->
+    <landmark id="blue1">
+        <name>Blue bazzar</name>
+        <description>Description of shop.</description>
+    </landmark>
+    <landmark id="blue2">
+        <name>Blue bells</name>
+        <description>Description of shop.</description>
+    </landmark>
+    <landmark id="blue3">
+        <name>Blue streaks</name>
+        <description>Description of shop.</description>
+    </landmark>
+    <landmark id="blue4">
+        <name> The call of Blue</name>
+        <description>Description of shop.</description>
+    </landmark>
+   
+
+
+    <!-- Green Landmarks -->
+    <landmark id="green1">
+        <name>Green stores</name>
+        <description>Description of Green stores.</description>
+    </landmark>
+    <landmark id="green2">
+        <name>Green Store</name>
+        <description>Description of Green Store.</description>
+    </landmark>
+    <landmark id="green3">
+        <name>Green stores</name>
+        <description>Description of Green stores.</description>
+    </landmark>
+    <landmark id="green4">
+        <name>Green store</name>
+        <description>Description of Green Store.</description>
+    </landmark>
+    <landmark id="green5">
+        <name>Green stores</name>
+        <description>Description of Green stores.</description>
+    </landmark>
+    <landmark id="green6">
+        <name>Green Store</name>
+        <description>Description of Green Store.</description>
+    </landmark>
+    <landmark id="green7">
+        <name>Green stores</name>
+        <description>Description of Green stores.</description>
+    </landmark>
+    <landmark id="green8">
+        <name>Green Store</name>
+        <description>Description of Green Store.</description>
+    </landmark>
+    <landmark id="green9">
+        <name>Green stores</name>
+        <description>Description of Green stores.</description>
+    </landmark>
+    <landmark id="green10">
+        <name>Landmark 7</name>
+        <description>Description of Landmark 7.</description>
+    </landmark>
+    <landmark id="green11">
+        <name>Green stores</name>
+        <description>Description of Green stores.</description>
+    </landmark>
+    <landmark id="green12">
+        <name>Green Store</name>
+        <description>Description of Green Store.</description>
+    </landmark>
+    <landmark id="green13">
+        <name>Green Stores</name>
+        <description>Description of green store.</description>
+    </landmark>
+    <landmark id="green14">
+        <name>Green Stores</name>
+        <description>Description of green store.</description>
+    </landmark>
+    <landmark id="green15">
+        <name>Green Stores</name>
+        <description>Description of green store.</description>
+    </landmark>
+
+    <!-- Orange Landmarks -->
+    <landmark id="orange1">
+        <name>tangle Orange</name>
+        <description>Description of shop.</description>
+    </landmark>
+    <landmark id="orange2">
+        <name>Orange Bites</name>
+        <description>Description of Orange Bites.</description>
+    </landmark>
+    <landmark id="orange2">
+        <name>Orange Bites</name>
+        <description>Description of Orange Bites.</description>
+    </landmark>
+    <landmark id="orange2">
+        <name>Orange fashions</name>
+        <description>Description of Orange fashions.</description>
+    </landmark>
+    <landmark id="orange2">
+        <name>Orange Bites</name>
+        <description>Description of Orange Bites.</description>
+    </landmark>
+   
+    <!-- Kiosk Landmarks -->
+    <landmark id="kiosk1">
+        <name>Watches</name>
+        <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, doloremque?</description>
+    </landmark>
+    <landmark id="kiosk2">
+        <name>Ice Creams</name>
+        <description>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, blanditiis!</description>
+    </landmark>
+    <landmark id="kiosk3">
+        <name>Nuts n Bakes</name>
+        <description>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, blanditiis!</description>
+    </landmark>
+    <landmark id="kiosk4">
+        <name>Juice inn</name>
+        <description>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, blanditiis!</description>
+    </landmark>
+    <landmark id="kiosk5">
+        <name>sarees</name>
+        <description>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, blanditiis!</description>
+    </landmark>
+    <landmark id="kiosk6">
+        <name>utensils</name>
+        <description>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, blanditiis!</description>  
+    </landmark>
+    <landmark id="kiosk7">
+        <name>Chats</name>
+        <description>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, blanditiis!</description>  
+    </landmark>
+    
+
+    <!-- Anchor Landmarks -->
+
+    <landmark id="jcp">
+        <name>JCPenney</name>
+        <description>
+            JCPenney is a retail store chain with a wide range of products, including clothing, electronics, home goods, and more.
+        </description>
+        <location>
+            <city>New York</city>
+            <state>New York</state>
+        </location>
+        <website>https://www.jcpenney.com</website>
+    </landmark>
+    <landmark id="kmart">
+        <name>Kmart</name>
+        <description>
+            Kmart is a retail store chain offering a variety of products, including clothing, appliances, and electronics.
+        </description>
+        <location>
+            <city>Chicago</city>
+            <state>Illinois</state>
+        </location>
+        <website>https://www.kmart.com</website>
+    </landmark>
+    <landmark id="amc">
+        <name>AMC Theatres</name>
+        <description>
+            AMC Theatres is a popular movie theater chain known for its diverse movie selections and comfortable seating.
+        </description>
+        <location>
+            <city>Los Angeles</city>
+            <state>California</state>
+        </location>
+        <website>https://www.amctheatres.com</website>
+    </landmark>
+    <landmark id="arc">
+        <name>ARC Theatres</name>
+        <description>
+            ARC Theatres is a popular movie theater chain known for its diverse movie selections and comfortable seating.
+        </description>
+        <location>
+            <city>Los Angeles</city>
+            <state>California</state>
+        </location>
+        <website>https://www.amctheatres.com</website>
+    </landmark>
+    <landmark id="sears">
+        <name>Sears</name>
+        <description>
+            Sears is a historic retail department store chain offering a wide range of products, including appliances, tools, and clothing.
+        </description>
+        <location>
+            <city>Philadelphia</city>
+            <state>Pennsylvania</state>
+        </location>
+        <website>https://www.sears.com</website>
+    </landmark>
+    <landmark id="arb">
+        <name>Tusky Mart</name>
+        <description>
+            Sears is a historic retail department store chain offering a wide range of products, including appliances, tools, and clothing.
+        </description>
+        <location>
+            <city>Philadelphia</city>
+            <state>Pennsylvania</state>
+        </location>
+        <website>https://www.sears.com</website>
+    </landmark>
+  
