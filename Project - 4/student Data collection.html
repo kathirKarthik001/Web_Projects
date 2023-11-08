@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: linear-gradient(rgb(141, 197, 220),rgb(66, 253, 206));
+            height: 100vh;
+        }
+        
+        table:not(#ft) {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background-color:rgb(167, 152, 138);
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            
+        }
+
+        th {
+            background-color: #f2f2f2;
+          
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        button {
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        
+    </style>
+</head>
+<body>
+    
+    <div>
+        <h1>Student Information Panel</h1>
+    <table id="ft" >
+       
+                <form id="myForm">
+                    <tr>
+                        <td>
+                            <label for="txt">Name </label>
+                        </td>
+                        <td>
+                            <input type="text" name="" id="txt">
+                        </td>
+                    </tr>
+                    
+
+                    <tr>
+                        <td>
+                            <label for="age">Age </label>
+                        </td>
+                        <td>
+                            <input type="number" name="" id="age">
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <label for="gender"> Gender  </label>
+                        </td>
+                       <td>
+                            <input type="radio" name="gender" id="male" value="Male">Male
+                            <input type="radio" name="gender" id="female" value="female">Female
+                       </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <label for="dept">Department </label>
+                        </td>
+                        <td>
+                            <select name="" id="dept" class="">
+                            <option value="CSE">CSE</option>
+                            <option value="ECE">ECE</option>
+                            <option value="EEE">EEE</option>
+                            <option value="MECH">MECH</option>
+                            <option value="CSBS">CSBS</option>
+                            </select>
+                        </td>
+
+                       </tr>
+                    
+                    <tr>
+                        <td>
+                            <label for="em">Email Id </label>
+                        </td>
+                        <td>
+                            <input type="email" name="" id="em">
+                        </td>
+                    </tr>
+    
+
+                    
+                           
+                       
+                </form>
+           
+       
+    </table>
+    <button type="button" onclick="submitted()" style="margin: 40px;">Submit</button>
+    </div>
+    <br>
+
+    <table border="3px" id="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Department</th>
+                <th>Email id</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+    </table>
+
+    <script>
+        function submitted(){
+            var name = document.getElementById("txt").value
+            var age = document.getElementById("age").value
+            var gen = document.querySelector('input[name="gender"]:checked').value
+            var dept = document.getElementById("dept").value
+            var email = document.getElementById("em").value
+
+            var table = document.getElementById("table");
+            var row = table.insertRow();
+
+            var c1 = row.insertCell(0);
+            var c2 = row.insertCell(1);
+            var c3 = row.insertCell(2);
+            var c4 = row.insertCell(3);
+            var c5 = row.insertCell(4);
+            var c6 = row.insertCell(5);
+
+            c1.innerHTML = name;
+            c2.innerHTML = age;
+            c3.innerHTML = gen;
+            c4.innerHTML = dept;
+            c5.innerHTML = email;
+            c6.innerHTML = "<button onclick='delrow(event)'>Remove</button>";
+
+
+            document.getElementById("myForm").reset();
+        }
+
+        function delrow(event){
+            var a = event.target.parentNode;
+            var b = a.parentNode;
+            var c = b.parentNode;
+
+            c.deleteRow(b.rowIndex)
+
+        }
+    </script>
+</body>
+</html>
