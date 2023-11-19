@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky</title>
+
+    <!-- css connectivity -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <!-- navbar -->
+
+    <div class="navbar">
+        <h1>Booksky</h1>
+    </div>
+
+    <!-- Container -->
+
+    <div class="Container">
+
+        <!-- book-container -->
+        <div class="book-container">
+            <h2>Rich Dad poor Dad</h2>
+            <h3>Robert</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias corrupti exercitationem, quo voluptas soluta provident numquam. Tempora est vero excepturi quam labore eum tempore quisquam, nobis rem, nostrum alias reiciendis</p>
+            <button class="del_bk" onclick="delBook(event)">Delete</button>
+        </div>
+
+    </div>
+
+    <!-- add books button -->
+
+    <button id="addbks">+</button>
+
+    <!-- popup-overlay -->
+    <div class="popup-overlay"></div>
+
+    <!-- popup-tab -->
+    <div class="popup-tab">
+        <h2>ADD BOOK</h2>
+        <form >
+            <input type="text" name="" id="book-title-input" placeholder="Book Title">
+            <input type="text" name="" id="book-author-input" placeholder="Author">
+            <textarea name="" id="book-descrp-input" cols="60" rows="5" placeholder="Short Description"></textarea>
+            <button id="add">ADD</button>
+            <button id="close_popup">CANCEL</button>
+        </form>
+
+    </div>
+
+    <div class="creator">A K@thir Creation</div>
+
+    <!-- javascript connectivity -->
+    <script src="script.js"></script>
+
+</body>
+</html>
